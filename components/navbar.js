@@ -13,7 +13,7 @@ export default function Navigation() {
       <Container>
         <img
           className="TPlogo"
-          src="https://files.slack.com/files-pri/T0BFXMWMV-FNJF3AQP5/toppoll.com__logo__2.png"
+          src="https://files.slack.com/files-pri/T0BFXMWMV-FNJUVAP7D/tplogo.png"
         />
         <div className="logo">
           <Navbar.Brand href="#home">
@@ -24,7 +24,7 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">About</Nav.Link>
+            <Nav.Link href="#features">Go to Toppolls</Nav.Link>
             <Nav.Link href="#pricing">Contact</Nav.Link>
             <NavDropdown title="Social Media" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Instagram</NavDropdown.Item>
@@ -37,10 +37,7 @@ export default function Navigation() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

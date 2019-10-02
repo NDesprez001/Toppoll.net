@@ -6,41 +6,101 @@ export function CarouselSection() {
     <Carousel>
       <Carousel.Item>
         <img
-          className="d-block w-100"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW91wNUB_BXI58w74Wp6MjiLWE8xUtWd7rX2Xgq-r7oKUwHGNAOg"
-          alt="First slide"
+          className="TPlogoCar"
+          src="https://files.slack.com/files-pri/T0BFXMWMV-FNJUVAP7D/tplogo.png"
+          alt="Into slide"
         />
+
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <div className="caption1">
+            <h3>Have an Idea?</h3>
+            <h5>
+              We are open to suggestions for new "Toppolls"
+            </h5>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
           src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-          alt="Third slide"
+          alt="First slide"
         />
-
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <div className="caption1">
+            <h3>Check us out!!</h3>
+            <h5>
+              Take a look at some of our social media platforms!!
+            </h5>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://dq1eylutsoz4u.cloudfront.net/2014/12/17200114/does-age-matter-in-a-relationship-poll.jpg"
+          src="https://images.unsplash.com/photo-1505322747495-6afdd3b70760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <div className="caption1">
+            <h3>Be sure to like us on Instagram</h3>
+            <h5>
+              Be up to date with new upcoming polls or other things!!
+            </h5>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://images.unsplash.com/photo-1551817958-20204d6ab212?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <div className="caption1">
+            <h3>Give us a tweet!!</h3>
+            <h5>
+              Check out our page on Twitter
+            </h5>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://images.unsplash.com/photo-1523837157348-ffbdaccfc7de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1952&q=80"
+          alt="Fourth slide"
+        />
+
+        <Carousel.Caption>
+          <div className="caption1">
+            <h3>Coming soon!!</h3>
+            <h5>
+              We plan to let you guys make your own Toppolls too!!
+            </h5>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+          alt="Fifth slide"
+        />
+
+        <Carousel.Caption>
+          <div className="caption1">
+            <h3>Have an Idea?</h3>
+            <h5>
+              We are open to suggestions for new "Toppolls"
+            </h5>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    
+    
   );
 }
