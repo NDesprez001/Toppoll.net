@@ -1,11 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CarouselSection } from "../components/CarouselSection";
 import Navigation from "../components/navbar";
-import { Topiccards } from "../components/topiccards";
 import { Jumbo } from "../components/jumbotron";
 import { FooterContent } from "../components/footer";
-import { Infoslider } from "../components/carouseladd";
-
+import { BriefInfo } from "../components/Briefer"
+import { Welcome } from "../components/opener";
+import { Jumbo2 } from "../components/endjumbo";
+import React from 'react'
 
 
 import fetch from "isomorphic-unfetch";
@@ -15,21 +16,12 @@ import Container from "react-bootstrap/Container";
 const MainPage = ({ polls }) => (
   <React.Fragment>
     <Navigation />
-    
-    
-    <Container>
-      <CarouselSection className="carouselsection" /><Jumbo />
-      <div className="over-card">
-        <h2>Don't know where to start?</h2>
-        <h4>
-          Here's some <strong>T</strong>oppolls to look at!
-        </h4>
-      </div>
-      <div className="row">
-        {polls.map(poll => (
-          <Topiccards {...poll} />
-        ))}
-      </div>
+    <Welcome />
+    <CarouselSection className="carouselsection" />
+    <Jumbo /> 
+    <Jumbo2 />
+    <Container fluid>
+      <BriefInfo />
     </Container>
     <FooterContent />
   </React.Fragment>

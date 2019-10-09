@@ -3,19 +3,20 @@ import { Carousel } from "react-bootstrap";
 
 export function CarouselSection() {
   return (
-    <Carousel>
+    <div className="carousel-slides">
+      <Carousel>
       <Carousel.Item>
         <img
-          className="TPlogoCar"
-          src="https://files.slack.com/files-pri/T0BFXMWMV-FNJUVAP7D/tplogo.png"
+          className="tp-logo-car"
+          src="https://www.xdguru.com/wp-content/uploads/2019/01/Free-Disqus-UI-Template-1014x487.jpg"
           alt="Into slide"
         />
 
         <Carousel.Caption>
           <div className="caption1">
-            <h3>Have an Idea?</h3>
+            <h3>Create an account!!</h3>
             <h5>
-              We are open to suggestions for new "Toppolls"
+              Leave comments and have debates with people on the topic with Disqus!!
             </h5>
           </div>
         </Carousel.Caption>
@@ -100,6 +101,7 @@ export function CarouselSection() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
     
     
   );

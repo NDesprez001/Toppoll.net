@@ -1,24 +1,19 @@
 import React from "react";
 
-export function Topiccards({ uuid, name, sidea, sideb }) {
+export function Topiccards({ uuid, name, sidea, sideb, image, description }) {
   return (
     <div className="toppolls">
       <div className="card mb-3">
         <div className="row no-gutters">
           <div className="col-md-4">
-            <img
-              src="https://picsum.photos/200/300"
-              className="card-img"
-              alt=""
-            />
+            <img src={image} className="card-img" alt="" />
           </div>
           <div className="col-md-8">
             <div className="card-body">
               <div className="card-title">
                 <h3>{name}</h3>
                 <h6>
-                  Many are wondering whether the Miami Dolphins team is even
-                  going to get better.
+                  {description}
                 </h6>
               </div>
               <p className="card-text" />

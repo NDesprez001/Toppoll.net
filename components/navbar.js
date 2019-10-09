@@ -14,6 +14,7 @@ export default function Navigation() {
         <img
           className="TPlogo"
           src="https://files.slack.com/files-pri/T0BFXMWMV-FNJUVAP7D/tplogo.png"
+          alt='toppollLogo'
         />
         <div className="logo">
           <Navbar.Brand href="#home">
@@ -24,21 +25,27 @@ export default function Navigation() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">Go to Toppolls</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/topics">Toppolls</Nav.Link>
+            <Nav.Link href="https://disqus.com">Disqus</Nav.Link>
             <NavDropdown title="Social Media" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Instagram</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">FaceBook</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Twitter</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.instagram.com/toppoll.net_offical/">
+                Instagram
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://www.facebook.com/profile.php?id=100041945057018">
+                FaceBook
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://twitter.com/Toppoll1">
+                Twitter
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                NoshDesprez@gmail.com
+                toppoll.net@gmail.com
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="https://inspirobot.me">Random inspiration</Nav.Link>
           </Nav>
-          <Nav>
-            
-          </Nav>
+          <Nav />
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -3,8 +3,10 @@
   text-align: center;
 }
 body {
-  background-color: #F2F2F3;
+  background-color: #fefefe;
   background-repeat: no-repeat;
+  background-image: url(https://www.xmple.com/wallpaper/blue-gradient-white-linear-2736x1824-c2-87cefa-ffffff-a-270-f-14.svg);
+  background-position: bottom;
 }
 .navbar {
   box-shadow: 2px 2px 10px;
@@ -13,7 +15,7 @@ body {
   display: inline-block;
   font-family: sans-serif;
   font-weight: 900;
-  color:#2727C7;
+  color:#25408f;
   width: 20px;
 }
 .logo h3 {
@@ -21,20 +23,30 @@ body {
   font-weight: 800;
 }
 .carousel-inner {
-  height: 300px;
+  height: 600px;
   box-shadow: 2px 2px 50px;
-  border-radius: 20px;
+  
 }
 .carousel-item {
-  height: 300px;
+  height: 600px;
   }
 .carousel-inner img {
   height: 350px;
 }
 .carousel-item img {
-  height: 300px;
+  height: 600px;
 }
-
+.slider-2 h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #e7edff;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 10px;
+}
+.slider-2 P {
+  color: #e7edff;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 10px;
+}
 .over-card {
   margin-bottom: 60px;
   background-color: rgba(0,0,0,.05);
@@ -60,6 +72,8 @@ body {
   margin-top: 20px;
   border-radius: 10px;
   text-align: center;
+  -webkit-transition: width 2s; /* Safari prior 6.1 */
+  transition: width 2s;
 }
 .toppoll-link{
   border-radius: 10px;
@@ -68,6 +82,15 @@ body {
   height: 30px;
   font-weight: 900;
   border-shadow: 2px 2px 10px;
+}
+.toppolls:hover {
+  width: 450px;;
+}
+.toppolls img {
+  height: 300px;
+  width: 400px;
+  opacity: .5;
+  
 }
 
 .TPlogo {
@@ -81,20 +104,25 @@ body {
   border-radius: 20px;
   background-color: rgba(0,0,0,.5);
 }
-.jumbotron{
-  background-image: url(https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
-  background-size: cover;
-  height: 400px;
-  background-position: 50px;
-  background-repeat: repeat;
+.head .jumbotron{
+  background-image: url(https://images.pexels.com/photos/41368/audio-female-girl-karaoke-41368.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: white;
+  height: 500px;
 }
-.jumbotron h1 {
+
+.head .jumbotron h1 {
   font-size: 80px;
-  color: white;
+  color: #25408f;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 50px;
 }
-.jumbotron h4 {
+.head .jumbotron h4 {
   font-size: 40px;
-  color: white;
+  color: #359AFE;
+  width: 800px;
+  padding-left: 50px;
 }
 .text-center {
   background: #f8f9fa;
@@ -103,26 +131,256 @@ body {
 .card-header {
   border-color: white;
 }
-.footerbody .endinfo {
-  background-image: url(https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right; 
-  color: white;
-}
-.footerbody .endinfo h2 {
-  background-color: rgba(0,0,0,.3);
-  border-radius: 20px;
-}
-.footerbody .endinfo h4{
-  background-color: rgba(0,0,0,.3);
-  border-radius: 20px;
-  text-align: center;
-}
+
 .text-muted {
   border-color: white;
 }
 .img .TPlogoCar {
   width: 300px;
   background-repeat: repeat;
+}
+.topic-picture {
+  text-align: center;
+}
+.topic-picture img {
+  width: 800px;
+  height: 400px;
+}
+.topic-header h1 {
+  text-align: center;
+}
+.tp-logo-car {
+  width: 2000px;
+  padding-top: 100
+  px;
+}
+.topic-image img {
+  width: 800px;
+  height: 400px;
+}
+.footerbody {
+  background-color: #7accff;
+}
+.card-header {
+  background-color: #7accff;
+  border-color: black;
+}
+.card-footer {
+  background-color: #f8f9fa;
+}
+.card-footer img {
+  width: 120px;
+}
+.topic-image {
+  width: 614px;
+  height: 700px;
+}
+.briefer .row {
+  display: -webkit-inline-box;
+  padding: 0px;
+  margin-bottom: 20px;
+  margin-left: 280px;
+  width: 1270px;
+}
+.briefer .col-8 {
+  width: 640px;
+}
+.topic-image img {
+  width: 614px;
+  shape-image-threshold: inherit;
+  height: 600px;
+  
+}
+.topic-description {
+  text-align: center;
+}
+.topic-text h1 {
+  color: #25408f;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s infinite;
+  animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+#div1 {-webkit-animation-timing-function: linear;}
+
+
+/* Standard syntax */
+#div1 {animation-timing-function: linear;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+.greetings {
+  text-align: center;
+  height: 400px;
+  background-image: url(https://cdn.wallpapersafari.com/88/92/rCjQwl.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 30px;
+}
+
+.head-greetings h1 {
+  font-weight: 100px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+}
+.head-greetings h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #25408f;
+}
+.head-greetings h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+.head-greetings {
+  padding-top: 100px;
+}
+.head-greetings strong {
+  color: #25408f;
+  font-size: 150px;
+}
+.ending-jumbo .jumbotron {
+  background-image: url(https://cdn.wallpapersafari.com/88/92/rCjQwl.jpg);
+
+}
+.ending-jumbo h1 {
+  text-align: center;
+  font-size: 150px;
+  color: #25408f;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ending-jumbo h3 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.ending-jumbo p {
+  text-align: center;
+}
+.topic-slider .carousel-inner {
+  border-radius: 20px;
+}
+
+.side-info1 {
+  width: 300px;
+  float: right;
+  background-image: url(https://cdn.wallpapersafari.com/88/92/rCjQwl.jpg);
+  margin-right: 50px;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.side-info1 h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #25408f;
+}
+.side-info1 p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #25408f;
+}
+.side-info1 img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.side-info2 {
+  width: 300px;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px;
+  background-image: url(https://cdn.wallpapersafari.com/88/92/rCjQwl.jpg);
+  margin-right: 50px; 
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+.side-info2 h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #25408f;
+}
+.side-info2 p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #25408f;
+}
+.side-info2 img {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.carousel-slides {
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
 }
